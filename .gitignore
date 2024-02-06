@@ -1,5 +1,6 @@
 **/__pycache__
 .venv
+.idea
 
 # Pylint
 # snake_cases: Funções, Variáveis, Métodos
