@@ -1,0 +1,63 @@
+Urls das aulas
+# Aula1-https://www.youtube.com/watch?v=CGdbSAi99H4
+# Aula2-https://www.youtube.com/watch?v=W9_KJKlg92c
+
+Comandos utilizados
+
+git init 
+# Para poder iniciar um repositório git
+
+git add
+# Para adicionar algo ao commit
+
+git status
+# Para visualizar o status do commit
+
+git commit -m 'nome do commit'
+# Para realizar o commit
+
+pip install virtualenv
+# Para instalar a biblioteca virtualenv na máquina
+
+py -m venv .venv
+# Criar um ambiente virtual no nosso projeto 
+
+.venv\Scripts\activate
+# Ativar o ambiente virtual
+
+Selecionar o interpreter do python em nossa maquina virtual .venv
+
+pip install pylint
+# Nesse projeto foi utilizado o pylint que é um linter(que padroniza a escrita do código)
+
+Instalar a extensão pylint do vscode
+
+pylint --generate--rcfile > .pylintrc
+# Cria um arquivo de configuração do pylint
+
+Foi passado no arquivo acima algumas instruções na variável disable
+
+pip install pre-commit
+# Instalar o biblioteca pre-commit em nossa venv
+
+.pre-commit-config.yaml
+# Criar o arquivo de configurações do pre-commit indicando as configurações do nosso linter
+
+pre-commit install
+# Para ativar o pre-commit no nosso projeto
+
+.venv/Scripts/pip3 freeze > requirements.txt
+# Para criar um arquivo listando todas as bibliotecas em nosso projeto
+# Esse comando deve ser sempre executado para atualizar essa listando
+
+pip install Flask
+# Para instalar nosso framework Flask
+
+pip install python-barcode
+# Para instalar a biblioteca python-barcode que gera código de barras
+
+pip install pillow
+# Para instalar a biblioteca pillow, que gera imagens, requisito para funcionamento do barcode
+
+python run_raw.py
+# Para iniciar nosso servidor Flask
