@@ -1,1 +1,6 @@
 **/__pycache__
+.venv
+
+# Pylint
+# snake_cases: Funções, Variáveis, Métodos
+# PascalCase: Classes 
