@@ -13,3 +13,8 @@ repos:
             "--rcfile=.pylintrc", # Link to your config file
             "--load-plugins=pylint.extensions.docparams", # Load an extensions
           ]   
+
+# Esse arquivo especifica quais verificações ou ações automatizadas devem ser executadas antes de cada commit no
+# repositório Git. Essas verificações podem incluir formatação de código, execução de testes automatizados, análise
+# estática de código, detecção de arquivos grandes, entre outras. O objetivo é garantir a qualidade do código e ajudar
+# a evitar a inclusão de problemas ou erros no repositório.
