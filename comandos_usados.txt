@@ -61,3 +61,6 @@ pip install pillow
 
 python run_raw.py
 # Para iniciar nosso servidor Flask
+
+pip install Cerberus
+# 
