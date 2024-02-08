@@ -64,3 +64,6 @@ python run_raw.py
 
 pip install Cerberus
 # 
+
+pip install pytest
+# 

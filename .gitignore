@@ -1,5 +1,6 @@
 **/__pycache__
 .venv
+.pytest_cache
 .idea
 
 # .gitignore ajuda a controlar quais arquivos e diretórios são ignorados pelo Git, garantindo um controle de versão
