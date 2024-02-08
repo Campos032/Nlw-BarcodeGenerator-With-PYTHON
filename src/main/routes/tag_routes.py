@@ -8,6 +8,8 @@ from src.views.http_types.http_request import HttpRequest
 # responsável por criar e validar tags.
 from src.views.tag_creator_view import TagCreatorView
 
+from src.errors.error_handler import handle_errors
+
 # Cria um objeto Blueprint chamado tag_routes_bp para definir rotas relacionadas a tags.
 tag_routes_bp = Blueprint('tags_routes', __name__)
 
@@ -15,15 +17,19 @@ tag_routes_bp = Blueprint('tags_routes', __name__)
 # for feita para a rota /create_tag.
 @tag_routes_bp.route('/create_tag', methods=['POST'])
 # Define a função create_tagg, que será chamada quando uma requisição POST for feita para a rota /create_tag.
-def create_tagg():
+def create_tag():
+    response = None
+    try:
     # Cria uma instância da classe TagCreatorView, que será usada para manipular a criação de tags.
-    tag_creator_view = TagCreatorView()
+        tag_creator_view = TagCreatorView()
     # Cria uma instância da classe HttpRequest, passando o corpo da requisição HTTP recebida como argumento. Isso
     # encapsula os dados da requisição em um objeto HttpRequest.
-    http_request = HttpRequest(body=request.json)
+        http_request = HttpRequest(body=request.json)
     # Chama o método validate_and_create da instância de TagCreatorView, passando o objeto http_request como argumento.
     # Este método valida os dados da requisição e cria a tag.
-    response = tag_creator_view.validate_and_create(http_request)
+        response = tag_creator_view.validate_and_create(http_request)
+    except Exception as exception:
+        response = handle_errors(exception)
     # Retorna a resposta da requisição HTTP, serializando o corpo da resposta para o formato JSON e retornando o código
     # de status HTTP correspondente.
     return jsonify(response.body), response.status_code
