@@ -1,0 +1,162 @@
+.venv
+# A pasta '.venv' é geralmente utilizada em projetos Python para armazenar um ambiente virtual, que é um ambiente Python
+isolado do sistema principal. Isso permite que você instale e gerencie pacotes Python específicos para o seu projeto,
+sem interferir no Python instalado globalmente no sistema.
+# Quando você cria um ambiente virtual em Python utilizando ferramentas como virtualenv ou venv, uma pasta chamada
+'.venv' (ou outro nome escolhido por você) é criada no diretório do seu projeto. Dentro dessa pasta, são armazenados
+todos os arquivos e dependências necessárias para o ambiente virtual funcionar corretamente, incluindo uma cópia do
+interpretador Python.
+# Estrutura típica da pasta '.venv' pode incluir subpastas como bin (ou Scripts no Windows), que contém os executáveis
+Python e outros utilitários relacionados ao ambiente virtual, e possivelmente uma pasta lib contendo as bibliotecas
+Python instaladas especificamente para o ambiente virtual.
+# Por que usar um ambiente virtual? Aqui estão alguns motivos:
+# Isolamento: Permite que você instale pacotes Python específicos para o seu projeto, sem afetar outros projetos ou o
+Python instalado globalmente no sistema.
+# Reprodutibilidade: Facilita a reprodução do ambiente de desenvolvimento em diferentes máquinas, garantindo que todos
+os desenvolvedores tenham as mesmas versões dos pacotes instalados.
+# Gerenciamento de dependências: simplifica o gerenciamento de dependências do projeto, permitindo que você liste todas
+ as dependências em um arquivo (como requirements.txt) e instale-as facilmente no ambiente virtual.
+# Portanto, a pasta '.venv' é uma parte importante de muitos projetos Python e é uma prática recomendada usar ambientes
+virtuais para o desenvolvimento de software Python.
+
+.vscode
+# A pasta ''.vscode' é criada pelo Visual Studio Code (VSCode) e contém configurações específicas do projeto, como
+configurações de depuração, preferências do editor, configurações de tarefas e lançamentos, entre outras. Ela está
+geralmente localizada na raiz do diretório do projeto.
+# O arquivo settings.json dentro da pasta ''.vscode' é um arquivo de configuração que permite personalizar o ambiente de
+desenvolvimento do VSCode para um projeto específico. Ele contém configurações que podem ser definidas globalmente para
+todos os usuários ou localmente apenas para o projeto atual. Isso inclui preferências do editor, configurações de
+formatação, configurações de idioma e muito mais.
+# Por exemplo, você pode definir o tamanho da tabulação, a largura máxima da linha, as extensões de arquivo a serem
+ignoradas, as configurações de integração com ferramentas externas, entre outras configurações específicas do VSCode.
+Essas configurações podem ser ajustadas conforme as necessidades de cada projeto ou equipe de desenvolvimento.
+
+src
+# A pasta src, abreviação de "source" (fonte), é comumente utilizada em projetos de desenvolvimento de software para
+armazenar o código-fonte do programa. Ela geralmente contém os arquivos-fonte que compõem a aplicação.
+# Dentro da pasta src, você pode encontrar diferentes tipos de arquivos, dependendo da linguagem de programação e da
+estrutura do projeto. Aqui estão alguns exemplos comuns:
+# Arquivos de código-fonte: esses são os arquivos que contêm o código-fonte real da aplicação, escritos em uma linguagem
+de programação específica. Por exemplo, em projetos Java, você pode encontrar arquivos .java, em projetos JavaScript,
+arquivos .js, em projetos Python, arquivos .py, e assim por diante.
+# Subpastas para organização: em projetos maiores, é comum organizar os arquivos de código-fonte em subpastas dentro da
+pasta src, conforme a estrutura do projeto ou as funcionalidades do software. Por exemplo, pode haver subpastas
+para diferentes módulos, componentes, modelos, controladores, utilitários, etc.
+# Recursos estáticos: às vezes, a pasta src também pode conter recursos estáticos usados pela aplicação, como arquivos
+de imagem, arquivos de estilo CSS, arquivos de modelo HTML, etc.
+# Arquivos de configuração: alguns projetos podem conter arquivos de configuração na pasta src, usados para configurar
+aspectos específicos da aplicação, como configurações de banco de dados, configurações de segurança, configurações de
+ambiente, entre outros.
+# Em resumo, a pasta src é geralmente onde o código-fonte do projeto é mantido e organizado. A estrutura exata dentro
+dessa pasta pode variar dependendo da linguagem de programação, do framework ou da estrutura específica do projeto.
+
+src/controller
+# A pasta src, abreviação de "source" (fonte), é comumente utilizada em projetos de desenvolvimento de software para
+armazenar o código-fonte do programa. Ela geralmente contém os arquivos-fonte que compõem a aplicação.
+# Dentro da pasta src, você pode encontrar diferentes tipos de arquivos, dependendo da linguagem de programação e da
+estrutura do projeto. Aqui estão alguns exemplos comuns:
+# Arquivos de código-fonte: esses são os arquivos que contêm o código-fonte real da aplicação, escritos em uma linguagem
+de programação específica. Por exemplo, em projetos Java, você pode encontrar arquivos .java, em projetos JavaScript,
+arquivos .js, em projetos Python, arquivos .py, e assim por diante.
+# Subpastas para organização: em projetos maiores, é comum organizar os arquivos de código-fonte em subpastas dentro da
+pasta src, conforme a estrutura do projeto ou as funcionalidades do software. Por exemplo, pode haver subpastas
+para diferentes módulos, componentes, modelos, controladores, utilitários, etc.
+# Recursos estáticos: às vezes, a pasta src também pode conter recursos estáticos usados pela aplicação, como arquivos
+de imagem, arquivos de estilo CSS, arquivos de modelo HTML, etc.
+# Arquivos de configuração: alguns projetos podem conter arquivos de configuração na pasta src, usados para configurar
+aspectos específicos da aplicação, como configurações de banco de dados, configurações de segurança, configurações de
+ambiente, entre outros.
+# Em resumo, a pasta src é geralmente onde o código-fonte do projeto é mantido e organizado. A estrutura exata dentro
+dessa pasta pode variar dependendo da linguagem de programação, do framework ou da estrutura específica do projeto.
+
+src/drivers
+# A pasta src/drivers, em muitos contextos de desenvolvimento de software, geralmente contém implementações específicas
+de drivers ou adaptadores. Aqui está uma descrição resumida do que esses termos significam:
+# Drivers: Em um contexto de desenvolvimento de software, um driver geralmente se refere a um componente que permite
+que um sistema operacional ou aplicativo interaja com um dispositivo de hardware específico. Por exemplo, um driver de
+dispositivo permite que o sistema operacional se comunique com uma impressora, placa de vídeo, placa de rede, etc. Na
+pasta src/drivers, você pode encontrar implementações de drivers para diferentes dispositivos, sistemas ou serviços
+utilizados pelo aplicativo.
+# Adaptadores: Os adaptadores são componentes que fornecem uma interface consistente ou adaptam uma interface existente
+para ser compatível com outra. Eles são comumente usados para abstrair a complexidade e fornecer uma interface
+simplificada para interações com sistemas externos ou diferentes partes do sistema. Por exemplo, em um aplicativo que
+se comunica com vários bancos de dados, você pode ter adaptadores para cada tipo de banco de dados (por exemplo, MySQL,
+PostgreSQL, MongoDB) que fornecem uma interface comum para operações de leitura e escrita. Na pasta src/drivers, você
+pode encontrar implementações de adaptadores para integrar diferentes sistemas, serviços ou APIs ao aplicativo.
+# Em resumo, a pasta src/drivers geralmente contém código responsável por lidar com interações de baixo nível, como
+comunicação com dispositivos de hardware ou integração com sistemas externos, fornecendo uma camada de abstração para
+facilitar o desenvolvimento e a manutenção do aplicativo.
+
+src/main
+# A pasta src/main é uma convenção comumente usada em projetos de software para organizar o código principal da
+aplicação. Aqui está uma descrição resumida do que essa pasta geralmente contém:
+# Código-fonte principal: A pasta src/main normalmente contém o código-fonte principal da aplicação. Isso inclui todos
+os arquivos e pacotes que formam a base da funcionalidade do software.
+# Arquivos de inicialização: muitas vezes, você encontrará arquivos de inicialização ou pontos de entrada da aplicação
+dentro da pasta src/main. Estes são os arquivos executados quando a aplicação é iniciada e que configuram o
+ambiente de execução.
+# Configurações: Configurações específicas da aplicação, como configurações de banco de dados, configurações de
+segurança, configurações de log, etc., podem ser armazenadas dentro da pasta src/main.
+# Recursos estáticos: dependendo do tipo de aplicação, você também pode encontrar recursos estáticos, como arquivos de
+imagem, arquivos de estilo CSS, arquivos de modelo HTML, etc., dentro da pasta src/main.
+# Em muitos frameworks e tecnologias de desenvolvimento, como Spring (Java), Django (Python), ou Laravel (PHP), a pasta
+src/main é uma convenção de organização de código que ajuda a manter a estrutura do projeto limpa e organizada. Ela
+separa o código principal da aplicação de outros tipos de código, como testes ou ferramentas de construção, que podem
+ser encontrados em outras pastas, como src/test, src/main/resources, etc.
+
+src/main/routes
+# A pasta src/main/routes é comumente usada em projetos de desenvolvimento de software para organizar os arquivos de
+definição de rotas em uma aplicação web. Aqui está uma descrição bem resumida do que essa pasta geralmente contém:
+# Definições de rotas: os arquivos dentro da pasta src/main/routes contêm as definições de rotas da aplicação web. Essas
+ rotas são as URLs que um cliente pode acessar para interagir com diferentes partes da aplicação.
+# Controladores: Muitas vezes, esses arquivos de rotas também referenciam controladores específicos que serão acionados
+quando uma determinada rota for acessada. Os controladores são responsáveis por processar as solicitações do cliente e
+fornecer uma resposta apropriada.
+# Configurações de rota: além das definições de rota em si, os arquivos na pasta src/main/routes podem conter
+configurações adicionais relacionadas às rotas, como autenticação, autorização, tratamento de erros, etc.
+# Em resumo, a pasta src/main/routes é usada para organizar as definições de rota em uma aplicação web, facilitando a
+manutenção e a compreensão do fluxo de controle da aplicação.
+
+src/main/server
+# A pasta src/main/routes é comumente usada em projetos de desenvolvimento de software para organizar os arquivos de
+definição de rotas em uma aplicação web. Aqui está uma descrição bem resumida do que essa pasta geralmente contém:
+# Definições de rotas: os arquivos dentro da pasta src/main/routes contêm as definições de rotas da aplicação web. Essas
+ rotas são as URLs que um cliente pode acessar para interagir com diferentes partes da aplicação.
+# Controladores: Muitas vezes, esses arquivos de rotas também referenciam controladores específicos que serão acionados
+quando uma determinada rota for acessada. Os controladores são responsáveis por processar as solicitações do cliente e
+fornecer uma resposta apropriada.
+# Configurações de rota: além das definições de rota em si, os arquivos na pasta src/main/routes podem conter
+configurações adicionais relacionadas às rotas, como autenticação, autorização, tratamento de erros, etc.
+# Em resumo, a pasta src/main/routes é usada para organizar as definições de rota em uma aplicação web, facilitando a
+manutenção e a compreensão do fluxo de controle da aplicação.
+
+src/views
+# A pasta src/main/routes é comumente usada em projetos de desenvolvimento de software para organizar os arquivos de
+definição de rotas em uma aplicação web. Aqui está uma descrição bem resumida do que essa pasta geralmente contém:
+# Definições de rotas: os arquivos dentro da pasta src/main/routes contêm as definições de rotas da aplicação web. Essas
+rotas são as URLs que um cliente pode acessar para interagir com diferentes partes da aplicação.
+# Controladores: Muitas vezes, esses arquivos de rotas também referenciam controladores específicos que serão acionados
+quando uma determinada rota for acessada. Os controladores são responsáveis por processar as solicitações do cliente e
+fornecer uma resposta apropriada.
+# Configurações de rota: além das definições de rota em si, os arquivos na pasta src/main/routes podem conter
+configurações adicionais relacionadas às rotas, como autenticação, autorização, tratamento de erros, etc.
+# Em resumo, a pasta src/main/routes é usada para organizar as definições de rota em uma aplicação web, facilitando a
+manutenção e a compreensão do fluxo de controle da aplicação.
+
+src/views/http_routes
+# A pasta src/views/http_routes, conforme sua nomenclatura, sugere uma organização específica para as rotas HTTP dentro
+das visualizações ou templates da aplicação web. Aqui está uma descrição resumida do que essa pasta geralmente contém:
+# Definições de rotas HTTP: Esta pasta contém arquivos que definem as rotas HTTP da aplicação, associando URLs
+específicos a funções ou controladores que lidam com solicitações HTTP correspondentes.
+# Separação de responsabilidades: ao organizar as rotas HTTP dentro da pasta src/views/http_routes, há uma clara
+separação entre a lógica de roteamento e a lógica de visualização. Isso pode facilitar a manutenção e a escalabilidade
+do código, especialmente em projetos maiores.
+# Facilidade de localização: essa estrutura ajuda os desenvolvedores a localizarem rapidamente as definições de rotas
+dentro da hierarquia de pastas do projeto, o que pode melhorar a produtividade e a compreensão do código.
+# Em resumo, a pasta src/views/http_routes é usada para organizar as definições de rotas HTTP dentro do contexto das
+visualizações ou templates da aplicação web. Essa organização pode trazer benefícios em termos de separação de
+responsabilidades e facilitar a manutenção do código.
+
+__init__.py Obs: Todas as pastas devem ter um arquivo desse
+# O arquivo __init__.py é usado para transformar um diretório em um pacote Python. Em resumo, ele indica ao
+interpretador Python que o diretório contém módulos Python que podem ser importados.

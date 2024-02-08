@@ -25,7 +25,7 @@ py -m venv .venv
 .venv\Scripts\activate
 # Ativar o ambiente virtual
 
-Selecionar o interpreter do python em nossa maquina virtual .venv
+Selecionar o interpreter do python em nossa máquina virtual '.venv'
 
 pip install pylint
 # Nesse projeto foi utilizado o pylint que é um linter(que padroniza a escrita do código)
