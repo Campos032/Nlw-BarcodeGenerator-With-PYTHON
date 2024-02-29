@@ -8,9 +8,6 @@ body = {
     }
 }
 
-# if "name" in body["data"]:
-#     if isinstance(body["data"]["name"], str):
-
 body_validator = Validator({
     "data": {
         "type": "dict",
@@ -28,4 +25,3 @@ if response is False:
     print(body_validator.errors)
 else:
     print('Body OK')
-    
