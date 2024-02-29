@@ -1,6 +1,7 @@
 Urls das aulas
 # Aula1-https://www.youtube.com/watch?v=CGdbSAi99H4
 # Aula2-https://www.youtube.com/watch?v=W9_KJKlg92c
+# Aula3-https://www.youtube.com/watch?v=wKvur8YsQmg
 
 Comandos utilizados
 
@@ -67,3 +68,12 @@ pip install Cerberus
 
 pip install pytest
 # 
+
+pytest  
+#
+
+pytest -s -v 
+# 
+
+pytest src/controller/tag_creator_controller_test.py
+#
